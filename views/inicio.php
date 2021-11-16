@@ -1,5 +1,5 @@
 <?php
-	require_once("vistas/header.php");
+	require_once("views/header.php");
 ?>
 
 <div class="jumbotron jumbotron-fluid">
@@ -17,5 +17,5 @@
 </div>
 	
 <?php 
-	require_once("vistas/footer.php");
+	require_once("views/footer.php");
 ?>

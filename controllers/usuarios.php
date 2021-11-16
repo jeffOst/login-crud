@@ -12,7 +12,7 @@ class Usuarios extends Controlador
 	public function renderizar($vista = "usuarios")
 	{
 		$this->mostrarUsuarios();
-		require_once ("vistas/".$vista.".php");
+		require_once ("views/".$vista.".php");
 	}
 
 	function mostrarUsuarios()
@@ -51,7 +51,7 @@ class Usuarios extends Controlador
 			$this->fila = $modelo->buscarByIdUsuario();
 		}
 		//Enviar a la VISTA
-		require_once ("vistas/usuarios_editar.php");	
+		require_once ("views/usuarios_editar.php");	
 	}
 
 	function actualizar()
