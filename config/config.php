@@ -7,10 +7,10 @@
 
 //Definir Nombre de la carpeta
 define("PROJECT_NAME","prueba");
+
 //Definir Ubicacion de la carpeta
 define("URL", "http://localhost/".PROJECT_NAME."/");
 define("DIRECTORY",$_SERVER['DOCUMENT_ROOT']."/".PROJECT_NAME."/");
-
 
 //Conexion a la Base de Datos
 define("SERVIDOR","127.0.0.1");
