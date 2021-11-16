@@ -1,5 +1,7 @@
 <?php
-require 'controladores/errores.php';
+
+require_once 'controllers/errores.php';
+
 class Ruteador
 {
 	
@@ -30,7 +32,7 @@ class Ruteador
 		$url=explode("/", $url);
 		
 		//Invocar a los CONTROLADORES
-		$filename="controladores/".$url[0].".php";
+		$filename="controllers/".$url[0].".php";
 
 		if (file_exists($filename)) {
 			//Incluir el archivo del controlador
