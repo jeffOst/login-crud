@@ -1,6 +1,6 @@
 <?php
 
-require_once("clase/database.php");
+require_once("class/database.php");
 
 class login_model
 {
